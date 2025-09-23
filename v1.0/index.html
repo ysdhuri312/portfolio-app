@@ -11,98 +11,255 @@
 </head>
 
 <body>
-    <div class="container" id="home">
-        <header>
-            <div id="logo" alt="YOGESH.DEV"><a href="#home">&#60; YOGESH.DEV &#47; &#62;</a></div>
-            <nav>
-                <ul id="menu-item">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about-me">About</a></li>
-                    <li><a href="#contact-me">Service</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                </ul>
-                <div class="hamburger-menu"><img src="/Assets/hamburger-menu.png" alt="menu" height="40" width="40">
+
+    <header>
+        <h1 id="logo" alt="YOGESH.DEV"><a href="#home">&#60; YOGESH.DEV <span>&#47;</span>&#62;</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact-me">Blog</a></li>
+                <li><a href="#blog">Photos</a></li>
+            </ul>
+        </nav>
+        <a href="#contact-me" class="btn">Let's Talk</a>
+        <div class="hamburger-menu"><img src="./Assets/icons/hamburger-menu.png" alt="menu" height="20" width="20"></div>
+        <div class="close-menu"><img src="./Assets/icons/close.png" alt="menu" height="20" width="20"></div>
+    </header>
+
+    <main class="container">
+
+        <div id="home">
+            <section id="hero">
+                <div id="hero_left">
+                    <h4>FULL STACK DEVELOPER</h4>
+                    <h1>Hello, I&#39m Yogesh Dhuri !</h1>
+                    <p>I want transitioning into Junior Web Developer with hands-on experience in JavaScript,
+                        Node.js,
+                        and React. Seeking an entry-level software development role to apply my problem-solving
+                        skills
+                        and real-world business understanding in building scalable applications. </p>
+                    <a href="#contact-me" class="btn">Notify Me</a>
+                    <a href="./Assets/pdf/Resume_Yogesh_Dhuri.pdf" class="btn" target="_blank">
+                        Download
+                        Resume</a>
                 </div>
-            </nav><a href="#contact-me"><button>Let's Talk</button></a>
-        </header>
-        <section id="hero">
-            <div id="hero_left">
-                <h4>FULL STACK DEVELOPER</h4>
-                <h1>Hello, I&#39m Yogesh Sitaram Dhuri !</h1>
-                <p>Junior Web Developer with one plus years of experience is seeking an opportunity to extend my web
-                    development and multimedia editing skills and knowledge.</p><a href="#contact-me"><button>Notify
-                        Me</button></a><a href="./Assets/Resume_Yogesh_Dhuri.pdf"
-                    download="resume_yogesh-dhuri"><button>Download CV</button></a>
-            </div>
-            <div id="hero_right"><img src="./Assets/hero-1.png" alt="hero-image"></div>
-        </section>
-    </div>
-    <main>
+                <div id="hero_right"><img src="./Assets/icons/hero-1.png" alt="hero-image"></div>
+            </section>
+        </div>
+
         <section id="about-me">
-            <div id="about-me_left"><img src="./Assets/hero-2.png" alt="hero-image"></div>
+            <div id="about-me_left"><img src="./Assets/icons/hero-2.png" alt="hero-image"></div>
             <div id="about-me_right">
                 <h4>About Me</h4>
                 <h1>Hi, I&#39m Here to help your next Project !</h1>
-                <p>Hi there, My name is Yogesh Dhuri and i&#39m Full stack web developer having specialization in
-                    backend & Front web development. I have backend skills in Node.js, Expess.js. I also have frontend
+                <p>Hi there, My name is Yogesh Dhuri and I&#39m Full stack web developer having specialization in
+                    backend & Front web development. I have backend skills in Node.js, Expess.js. I also have
+                    frontend
                     skills in JavaScript, react.js, Web components
-                    like css, Bootstraps.</p><a href="#contact-me"><button>Hire Me</button></a>
+                    like css, Bootstraps.</p><a href="#contact-me" class="btn">Hire Me</a>
             </div>
         </section>
+
         <section id="specialize">
             <h3>I&#39m Specialized In</h3>
-            <ul id="skills">
-                <li><img src="./Assets/html-5.png" alt="HTML5"></li>
-                <li><img src="./Assets/css3.png" alt="CSS3"></li>
-                <li><img src="./Assets/javascript.png" alt="JAVASCRIPT"></li>
-                <li><img src="./Assets/jquery.png" alt="JQUERY"></li>
-                <li><img src="./Assets/bootstrap.png" alt="BOOTSTRAP"></li>
-                <li><img src="./Assets/react.png" alt="REACT"></li>
-                <li><img src="./Assets/tailwindcss.png" alt=""></li>
-                <li><img src="./Assets/node-js.png" alt="NODEJS"></li>
-                <li><img src="./Assets/express-js.png" alt=""></li>
-                <li><img src="./Assets/mongodb.png" alt="MONGODB"></li>
-            </ul>
+            <table id="skills">
+                <tr>
+                    <td><img src="./Assets/icons/html-5.png" alt="html5"></td>
+                    <td><img src="./Assets/icons/css3.png" alt="css3"></td>
+                    <td><img src="./Assets/icons/javascript.png" alt="javascript"></td>
+                    <td><img src="./Assets/icons/jquery.png" alt="jquery"></td>
+                    <td><img src="./Assets/icons/bootstrap.png" alt="bootstrap"></td>
+                    <td><img src="./Assets/icons/react.png" alt="react"></td>
+                    <td><img src="./Assets/icons/tailwindcss.png" alt="tailwindcss"></td>
+                    <td><img src="./Assets/icons/sass.png" alt="sass"></td>
+                    <td><img src="./Assets/icons/node-js.png" alt="node-js"></td>
+                </tr>
+                <tr>
+                    <td><img src="./Assets/icons/express-js.png" alt=""></td>
+                    <td><img src="./Assets/icons/mongodb.png" alt="mongodb"></td>
+                    <td><img class="inprogress" src="./Assets/icons/graphql.png" alt="graphql"></td>
+                    <td><img src="./Assets/icons/typescript.png" alt="typescript"></td>
+                    <td><img class="inprogress" src="./Assets/icons/nextjs.png" alt="nextjs"></td>
+                    <td><img class="inprogress" src="./Assets/icons/postgresql.png" alt="postgresql"></td>
+                    <td><img class="inprogress" src="./Assets/icons/docker.png" alt="docker"></td>
+                    <td><img class="inprogress" src="./Assets/icons/python.png" alt="python"></td>
+                    <td><img class="inprogress" src="./Assets/icons/cpp.png" alt="cpp"></td>
+                </tr>
+                <tr>
+                    <td><img class="inprogress" src="./Assets/icons/mongodb.png" alt="mongodb"></td>
+                    <td><img class="inprogress" src="./Assets/icons/graphql.png" alt="graphql"></td>
+                    <td><img class="inprogress" src="./Assets/icons/typescript.png" alt="typescript"></td>
+                    <td><img class="inprogress" src="./Assets/icons/nextjs.png" alt="nextjs"></td>
+                    <td><img class="inprogress" src="./Assets/icons/postgresql.png" alt="postgresql"></td>
+                    <td><img class="inprogress" src="./Assets/icons/docker.png" alt="docker"></td>
+                    <td><img class="inprogress" src="./Assets/icons/nextjs.png" alt="nextjs"></td>
+                    <td><img class="inprogress" src="./Assets/icons/nextjs.png" alt="nextjs"></td>
+                </tr>
+            </table>
+
+            <table id="skills-mobile">
+                <tr>
+                    <td><img src="./Assets/icons/html-5.png" alt="html5"></td>
+                    <td><img src="./Assets/icons/css3.png" alt="css3"></td>
+                    <td><img src="./Assets/icons/javascript.png" alt="javascript"></td>
+                    <td><img src="./Assets/icons/jquery.png" alt="jquery"></td>
+                </tr>
+                <tr>
+                    <td><img src="./Assets/icons/bootstrap.png" alt="bootstrap"></td>
+                    <td><img src="./Assets/icons/react.png" alt="react"></td>
+                    <td><img src="./Assets/icons/tailwindcss.png" alt="tailwindcss"></td>
+                    <td><img src="./Assets/icons/sass.png" alt="sass"></td>
+                </tr>
+                <tr>
+                    <td><img src="./Assets/icons/node-js.png" alt="node-js"></td>
+                    <td><img src="./Assets/icons/express-js.png" alt=""></td>
+                    <td><img src="./Assets/icons/mongodb.png" alt="mongodb"></td>
+                    <td><img class="inprogress" src="./Assets/icons/graphql.png" alt="graphql"></td>
+                </tr>
+                <tr>
+                    <td><img src="./Assets/icons/typescript.png" alt="typescript"></td>
+                    <td><img class="inprogress" src="./Assets/icons/nextjs.png" alt="nextjs"></td>
+                    <td><img class="inprogress" src="./Assets/icons/postgresql.png" alt="postgresql"></td>
+                    <td><img class="inprogress" src="./Assets/icons/docker.png" alt="docker"></td>
+                </tr>
+                <tr>
+                    <td><img class="inprogress" src="./Assets/icons/python.png" alt="python"></td>
+                    <td><img class="inprogress" src="./Assets/icons/cpp.png" alt="cpp"></td>
+                    <td><img class="inprogress" src="./Assets/icons/mongodb.png" alt="mongodb"></td>
+                    <td><img class="inprogress" src="./Assets/icons/graphql.png" alt="graphql"></td>
+                </tr>
+                <tr>
+                    <td><img class="inprogress" src="./Assets/icons/typescript.png" alt="typescript"></td>
+                    <td><img class="inprogress" src="./Assets/icons/nextjs.png" alt="nextjs"></td>
+                    <td><img class="inprogress" src="./Assets/icons/postgresql.png" alt="postgresql"></td>
+                    <td><img class="inprogress" src="./Assets/icons/docker.png" alt="docker"></td>
+                </tr>
+                <tr>
+                    <td><img class="inprogress" src="./Assets/icons/nextjs.png" alt="nextjs"></td>
+                    <td><img class="inprogress" src="./Assets/icons/nextjs.png" alt="nextjs"></td>
+                    <td><img class="inprogress" src="./Assets/icons/postgresql.png" alt="postgresql"></td>
+                    <td><img class="inprogress" src="./Assets/icons/docker.png" alt="docker"></td>
+                </tr>
+            </table>
         </section>
+
         <section id="my-work">
-            <h3>Featured My Works</h3><img src="./Assets/arrow-left.png" alt="" id="arrow-left" class="arrow">
-            <div class="projects_carousel"><img src="" alt=""> <img src="" alt=""> <img src="" alt=""></div><img
-                src="./Assets/arrow-right.png" alt="" id="arrow-right" class="arrow">
-        </section>
-        <section id="testimonials">
-            <h1>Testimonials</h1>
-            <div id="main-content"><img src="" alt="">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen
-                    book. It has survived not only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged.</p>
+            <h3>Featured My Works</h3>
+            <div class="wrapper">
+                <div class="arrow">&lsaquo;</div>
+                <ul class="carousel">
+                    <li class="card">
+                        <div>
+                            <img src="./Assets/icons/placeholder-image.png" width='200px' />
+                        </div>
+                        <div>
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse recusandae dolorum
+                                tempore totam, tenetur doloribus? </p>
+                            <span>Links</span>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div>
+                            <img src="./Assets/icons/placeholder-image.png" width='200px' />
+                        </div>
+                        <div>
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse recusandae dolorum
+                                tempore totam, tenetur doloribus?</p>
+                            <span>Links</span>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div>
+                            <img src="./Assets/icons/placeholder-image.png" width='200px' />
+                        </div>
+                        <div>
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse recusandae dolorum
+                                tempore totam, tenetur doloribus?</p>
+                            <span>Links</span>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div>
+                            <img src="./Assets/icons/placeholder-image.png" width='200px' />
+                        </div>
+                        <div>
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse recusandae dolorum
+                                tempore totam, tenetur doloribus?</p>
+                            <span>Links</span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="arrow">&rsaquo;</div>
             </div>
         </section>
+
         <section id="contact-me">
-            <h1>Let&#39s have a Talk</h1>
-            <form action="mailto:ysdhuri312@gmail.com"><input name="name" type="text" class="feedback-input"
-                    placeholder="Name"> <input name="email" type="text" class="feedback-input"
-                    placeholder="Email"><textarea name="text" class="feedback-input"
-                    placeholder="Comment"></textarea><input type="submit" value="SUBMIT"></form>
+            <h2>Get In Touch</h2>
+
+            <div class="contact">
+                <div class="form-container">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="">
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder=""></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="links">
+                        <strong>GitHub</strong><br>
+                        <a href="https://github.com/yogesh-dhuri" target="_blank">https://github.com/yogesh-dhuri</a>
+                    </div>
+                    <div class="placeholder"></div>
+                    <div class="placeholder"></div>
+                    <div class="placeholder"></div>
+                </div>
+            </div>
+
         </section>
     </main>
+
     <footer>
-        <div></div>
-        <ul id="menu-item_footer">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#contact-me">Service</a></li>
-            <li><a href="#blog">Blog</a></li>
-        </ul>
-        <ul id="social">
-            <li><a href="https://github.com/login" target="_blank"><img src="./Assets/github.png" alt="GITHUB"></a></li>
-            <li><a href="https://www.linkedin.com/login" target="_blank"><img src="./Assets/linkedin.png"
-                        alt="LINKEDIN"></a></li>
-            <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="./Assets/instagram.png"
-                        alt="INSTAGRAM"></a></li>
-        </ul>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Photos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="./Assets/icons/linkedin.png" alt=""></a>
+                    <a href="#"><img src="./Assets/icons/github.png" alt=""></a>
+                    <a href="#"><img src="./Assets/icons/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2025 Yogesh Dhuri. All rights reserved.
+        </div>
     </footer>
+
 </body>
 
 </html>
