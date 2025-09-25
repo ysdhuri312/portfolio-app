@@ -141,6 +141,7 @@ header>.btn:hover {
     padding: 10px 30px;
     border-radius: 1px;
     border: none;
+    margin-right: 7px;
 }
 
 #hero_left>.btn:hover {
