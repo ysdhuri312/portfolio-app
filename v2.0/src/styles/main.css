@@ -1,6 +1,17 @@
+@import 'header.css';
+
 @font-face {
   font-family: "poppins";
-  src: url("../../public/fonts/Poppins.ttf") format("truetype");
+  src: url("fonts/Poppins.ttf") format("truetype");
+  font-family: 'roboto';
+  src: url("fonts/Roboto.ttf") format('truetype')
+}
+
+:root {
+  --primary-color: #EB6440;
+  --secondary-color: #7DDFFD;
+  --font-color: #333333;
+  --background-color: #fff2f2;
 }
 
 * {
