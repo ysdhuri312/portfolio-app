@@ -3,7 +3,7 @@
     align-items: center;
     gap: 30px;
     padding: 10px 10%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 #about-me_left {
@@ -24,7 +24,7 @@
     letter-spacing: 5px;
     margin-top: 0;
     margin-bottom: 15px;
-    opacity: .7
+    opacity: 0.7
 }
 
 #about-me_right h1 {
