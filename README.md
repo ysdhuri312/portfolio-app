@@ -4,37 +4,34 @@
 
 This repository showcases my personal portfolio in **two major versions**:
 
-- **v1.0** → Static HTML/CSS/JS
-- **v2.0** → Upgraded React version
+- **v1.0** → Static HTML/CSS website only for desktop devices
+- **v2.0** → refactor whole website. It support any device.
 
 ---
 
 ## 🔗 Live Demos
 
-- **Static Version (v1.0)**: [GitHub Pages](https://your-username.github.io/portfolio-website)
-- **React Version (v2.0)**: [Live on Vercel](https://your-react-site.vercel.app)
+- **Static Version (v2.0)**: [GitHub Pages](https://your-username.github.io/portfolio-website)
 
 ---
 
-## 📂 Branches
+## 📂 Folder
 
-- **main** → Latest React version
-- **react-version** → Development branch for React
-- **static-version** → Old HTML/CSS/JS site
+- **v1.0** → Static HTML/CSS website only for desktop devices
+- **v2.0** → refactor whole website. It support any device.
 
 ---
 
 ## 🏷️ Tags (Versions)
 
 - [v1.0](https://github.com/your-username/portfolio-website/releases/tag/v1.0) → Static version
-- [v2.0](https://github.com/your-username/portfolio-website/releases/tag/v2.0) → React version
+- [v2.0](https://github.com/your-username/portfolio-website/releases/tag/v2.0) → Upadated static version
 
 ---
 
 ## 🚀 Deployment
 
-- **Old Site** → GitHub Pages from `static-version`
-- **React Site** → [Vercel](https://vercel.com) or GitHub Pages via `gh-pages`
+- **Site** → GitHub Pages from `static-version`
 
 ---
 
