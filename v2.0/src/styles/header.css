@@ -91,7 +91,6 @@ header>.btn:hover {
 
 @media screen and (max-width: 850px) {
 
-
     nav,
     .container>.btn {
         display: none;
