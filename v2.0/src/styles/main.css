@@ -1,4 +1,6 @@
 @import 'header.css';
+@import 'home.css';
+@import 'about-me';
 
 @font-face {
   font-family: "poppins";
@@ -21,4 +23,10 @@
   list-style: none;
   text-decoration: none;
   font-family: Poppins, sans-serif;
+  background-color: var(--background-color);
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
 }
