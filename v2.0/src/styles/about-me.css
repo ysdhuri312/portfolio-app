@@ -1,20 +1,25 @@
-#hero {
-    height: 80vh;
+#about-me {
     display: flex;
     align-items: center;
+    gap: 30px;
     padding: 10px 10%;
     margin-bottom: 50px;
 }
 
-#hero_left {
-    width: 60vw
-}
-
-#hero_right {
+#about-me_left {
     width: 40vw
 }
 
-#hero_left h4 {
+#about-me_right {
+    width: 60vw
+}
+
+#about-me_left>img {
+    height: 300px;
+    width: 400px;
+}
+
+#about-me_right h4 {
     color: #555;
     letter-spacing: 5px;
     margin-top: 0;
@@ -22,49 +27,49 @@
     opacity: .7
 }
 
-#hero_left h1 {
+#about-me_right h1 {
     color: #222;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 70px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
     margin-bottom: 30px
 }
 
-#hero_left p {
+#about-me_right p {
     font-weight: 500;
-    margin-bottom: 40px;
-    padding-right: 150px
+    margin-bottom: 40px
 }
 
-#hero_left>.btn {
+#about-me_right>.btn {
     background-color: var(--primary-color);
     color: var(--background-color);
     padding: 10px 30px;
     border-radius: 1px;
-    border: none;
-    margin-right: 7px
+    border: none
 }
 
-#hero_left>.btn:hover {
+#about-me_right>.btn:hover {
     opacity: .9
 }
 
-#hero_right>img {
-    height: 350px;
-    width: 360px;
-    margin: 30px
-}
-
-
-
 @media screen and (max-width: 1024px) {
 
-    #hero_left h4 {
+    #about-me_left {
+        width: 100%;
+    }
+
+    #about-me_left>img {
+        height: 300px;
+        width: 375px;
+        margin: 0;
+    }
+
+    #about-me_right h4 {
         letter-spacing: 4px;
         margin-top: 10px;
     }
 
-    #hero_left h1 {
+    #about-me_right h1 {
         font-weight: 700;
         font-size: 45px;
         line-height: 50px;
@@ -79,37 +84,31 @@
         width: 850px;
     }
 
-    #hero {
+    #about-me {
         height: auto;
         width: 100%;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         padding: 10px 10%;
     }
 
-    #hero_left {
-        width: 100%;
+    #about-me_right {
         text-align: center;
     }
 
-    #hero_right {
-        width: 100%;
+    #about-me_left {
         text-align: center;
     }
 
-    #hero_left p {
-        font-weight: 500;
-        margin-bottom: 50px;
-        padding: 0;
+    #about-me_left>img {
+        height: 200px;
+        width: 275px;
+        margin: 0;
     }
 
-    #hero_right {
-        text-align: center;
+    #about-me_right>.btn {
+        padding: 10px 50px;
     }
 
-    #hero_right>img {
-        height: 250px;
-        width: 260px;
-    }
 }
