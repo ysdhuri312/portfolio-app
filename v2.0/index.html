@@ -154,12 +154,24 @@
           <h2>Get In Touch</h2>
           <div class="contact">
             <div class="form-container">
-              <form>
-                <label for="name">Name</label><input type="text" id="name" placeholder="" /><label
-                  for="email">Email</label><input type="email" id="email" placeholder="" /><label
-                  for="subject">Subject</label><input type="text" id="subject" placeholder="" /><label
-                  for="message">Message</label><textarea id="message" placeholder=""></textarea><button
-                  type="submit">Send Message</button>
+              <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                <input type="hidden" name="access_key" value="cb2bd1ab-4a2a-4b30-ad1f-d1da81802f89">
+                
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="" />
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="" />
+                
+                  <!-- <label for="subject">Subject</label>
+                  <input type="text" id="subject" placeholder="" /> -->
+                  
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder=""></textarea>
+                  
+                  <button type="submit">Send Message</button>
+                  
+                  <div id="result"></div>
               </form>
             </div>
             <div class="contact-info">
@@ -192,8 +204,8 @@
           <div class="footer-column">
             <h3>Connect</h3>
             <div class="social-icons">
-              <a href="#"><img src="icons/linkedin.png" alt="" /></a><a href="https://github.com/yogesh-dhuri"><img src="icons/github.png"
-                  alt="" /></a><a href="#"><img src="icons/instagram.png" alt="" /></a>
+              <a href="#"><img src="icons/linkedin.png" alt="" /></a><a href="https://github.com/yogesh-dhuri"><img
+                  src="icons/github.png" alt="" /></a><a href="#"><img src="icons/instagram.png" alt="" /></a>
             </div>
           </div>
         </div>
