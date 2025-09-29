@@ -8,9 +8,14 @@ header .container {
     align-items: center;
     padding: 10px 10%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
-nav ul {
+.nav-links {
+    display: flex;
+}
+
+.nav-links ul {
     display: flex;
 }
 
@@ -59,7 +64,7 @@ nav li a:hover::after {
 .btn {
     background-color: var(--primary-color);
     color: var(--background-color);
-    padding: 8px 25px;
+    padding: 11px 25px;
     border-radius: 1px;
     border: none;
     font-size: 14px;
@@ -91,9 +96,28 @@ header>.btn:hover {
 
 @media screen and (max-width: 850px) {
 
-    nav,
-    .container>.btn {
-        display: none;
+    .nav-links {
+        position: absolute;
+        flex-direction: column;
+        left: -100%;
+        top: 70%;
+        width: 100%;
+        text-align: center;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .nav-links .btn {
+        padding: 10px 30px;
+        margin-bottom: 10px 50px;
     }
 
     header #logo a {
@@ -120,5 +144,6 @@ header>.btn:hover {
         font-size: 10px;
         cursor: pointer;
     }
+
 
 }
