@@ -28,28 +28,40 @@
  .card {
      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
      width: 30%;
-     height: auto;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
  }
 
  .card>img {
      width: 100%;
      height: auto;
      object-fit: cover;
+     flex: 1;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 2px;
  }
 
  .description {
      margin: 10px;
+     height: 150px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     flex: 1;
  }
 
- .card h4 {
+ .description h4 {
      margin-bottom: 10px;
  }
 
- .card p {
+ .description p {
      font-size: 12px;
      margin-bottom: 10px
  }
 
+ .description div {
+     margin-bottom: 7px;
+ }
 
  @media screen and (max-width: 850px) {
      .cards {
