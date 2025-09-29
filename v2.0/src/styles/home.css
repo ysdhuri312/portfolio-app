@@ -24,16 +24,16 @@
 
 #hero_left h1 {
     color: #222;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 70px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
     margin-bottom: 30px
 }
 
 #hero_left p {
     font-weight: 500;
     margin-bottom: 40px;
-    padding-right: 150px
+    padding-right: 100px
 }
 
 #hero_left>.btn {
@@ -59,15 +59,19 @@
 
 @media screen and (max-width: 1024px) {
 
+    #hero {
+        height: auto;
+    }
+
     #hero_left h4 {
         letter-spacing: 4px;
         margin-top: 10px;
     }
 
     #hero_left h1 {
-        font-weight: 700;
-        font-size: 45px;
-        line-height: 50px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
         margin-bottom: 20px
     }
 }

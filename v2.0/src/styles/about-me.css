@@ -70,9 +70,9 @@
     }
 
     #about-me_right h1 {
-        font-weight: 700;
-        font-size: 45px;
-        line-height: 50px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
         margin-bottom: 20px
     }
 }
@@ -95,10 +95,17 @@
 
     #about-me_right {
         text-align: center;
+        width: 100%;
     }
 
     #about-me_left {
         text-align: center;
+    }
+
+    #about-me_right h1 {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
     }
 
     #about-me_left>img {

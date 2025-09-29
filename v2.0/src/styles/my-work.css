@@ -1,0 +1,62 @@
+ #my-work {
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     align-items: center;
+     max-width: 1440px;
+     margin-inline: auto;
+     padding: 10px 10%;
+     margin-bottom: 50px;
+ }
+
+ #my-work h3 {
+     color: #222;
+     font-size: 35px;
+     font-weight: 800;
+     text-align: center;
+ }
+
+ .cards {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     gap: 5px;
+     flex-wrap: wrap;
+     padding: 0;
+ }
+
+ .card {
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+     width: 30%;
+     height: auto;
+ }
+
+ .card>img {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+ }
+
+ .description {
+     margin: 10px;
+ }
+
+ .card h4 {
+     margin-bottom: 10px;
+ }
+
+ .card p {
+     font-size: 12px;
+     margin-bottom: 10px
+ }
+
+
+ @media screen and (max-width: 850px) {
+     .cards {
+         gap: 10px;
+     }
+
+     .card {
+         width: 100%;
+     }
+ }
