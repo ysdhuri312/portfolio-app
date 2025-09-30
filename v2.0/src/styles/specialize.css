@@ -18,8 +18,9 @@
 
 #skills {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: calc(70%-30px);
+    width: 80%;
 }
 
 .icon {
@@ -32,4 +33,16 @@
 
 .inprogress {
     opacity: 0.2
+}
+
+@media screen and (max-width:1024px) {
+    #skills {
+        /* width: calc(80% - 30px); */
+    }
+}
+
+@media screen and (max-width:850px) {
+    #specialize {
+        padding: 10px;
+    }
 }

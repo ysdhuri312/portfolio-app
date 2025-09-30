@@ -34,3 +34,7 @@
   max-width: 1440px;
   margin-inline: auto;
 }
+
+#app {
+  position: relative;
+}
